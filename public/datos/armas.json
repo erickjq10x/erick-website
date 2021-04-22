@@ -1,0 +1,14 @@
+  
+{
+    "arma1":{
+        "id": 0,
+        "nombre": "AK47",
+        "imagen": "https://static.dw.com/image/17321132_401.jpg"
+    },
+
+    "arma2":{
+        "id": 1,
+        "nombre": "pistola",
+        "imagen": "https://images-na.ssl-images-amazon.com/images/I/61HSI9AntpL._AC_SX466_.jpg"
+    }
+}
