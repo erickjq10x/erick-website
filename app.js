@@ -7,7 +7,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var armasrouter = require('./routes/armas')
+var weaponsrouter = require('./routes/weapons')
 
 var app = express();
 
@@ -23,7 +23,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/armas', armasrouter)
+app.use('/weapons', weaponsrouter);
 // hbs engine settings
 app.engine('hbs', exphbs({
   defaultLayout: 'main',

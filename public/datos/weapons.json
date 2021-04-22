@@ -1,0 +1,14 @@
+  
+{
+    "weapong1":{
+        "id": 0,
+        "name": "AK47",
+        "image": "https://static.dw.com/image/17321132_401.jpg"
+    },
+
+    "weapong2":{
+        "id": 1,
+        "name": "pistola",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61HSI9AntpL._AC_SX466_.jpg"
+    }
+}
