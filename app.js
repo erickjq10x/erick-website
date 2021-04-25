@@ -10,6 +10,8 @@ var usersRouter = require('./routes/users');
 var weaponsRouter = require('./routes/weapons');
 var registerRouter = require('./routes/register');
 
+require('./database/conection');
+
 var app = express();
 
 // view engine setup

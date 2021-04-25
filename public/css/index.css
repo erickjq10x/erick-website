@@ -125,3 +125,38 @@ p{
     border-radius: 4px;
     transition: all 400ms ease;
 }
+
+.register-form {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+    height: 852px;
+}
+.register-form h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.register-form p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.register-form input{
+    font-size: 16px;
+    padding: 15px 15px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.register-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
