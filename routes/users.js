@@ -12,4 +12,11 @@ router.post('/register',passport.authenticate('register',{
 }));
 
 router.get('/login',controller.renderLogin);
+
+router.post('/login',passport.authenticate('login',{
+    successRedirect: '/',
+    failureRedirect: '/login',
+    passReqToCallback: true
+}));
+
 module.exports = router;
